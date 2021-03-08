@@ -56,7 +56,6 @@ function setSelect(){
                 type: "POST",
                 url: "php/ajax.php",
                 data: params,
-                async: true,
                 success: function(response)
                 {   
 
