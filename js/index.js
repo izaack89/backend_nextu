@@ -53,10 +53,9 @@ function setSelect(){
             };
         $.ajax
                 ({
-                type: "POST",
+                type: "GET",
                 url: "php/ajax.php",
-                data: {"data":params},
-                dataType: 'json',
+                data: params,
                 async: true,
                 cache: false,
                 success: function(response)

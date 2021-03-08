@@ -10,7 +10,7 @@ function getValor($precio)
 //ini_set('display_startup_errors', 1);
 //error_reporting(E_ALL);
 
-//$information_json= file_get_contents(dirname(dirname(__FILE__))."/data-1.json");
+$information_json = file_get_contents(dirname(dirname(__FILE__)) . "/data-1.json");
 $information = json_decode($information_json, true);
 
 $action = $_POST["filterKey"];
