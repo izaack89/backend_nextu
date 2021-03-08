@@ -56,7 +56,6 @@ function setSelect(){
                 type: "GET",
                 url: "php/ajax.php",
                 data: params,
-                async: true,
                 cache: false,
                 success: function(response)
                 {   
